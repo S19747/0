@@ -121,7 +121,7 @@
                 letter-spacing: 0.2em
             }
 
-            .loader::before,
+            /* .loader::before,
             .loader::after {
                 content: "";
                 display: block;
@@ -138,7 +138,7 @@
 
             .loader::after {
                 bottom: 0
-            }
+            } */
 
             @keyframes load {
                 0% {
@@ -391,19 +391,19 @@
                 <div class="placeholder" style="height:74px"></div>
             </div>
             <div class="header-big  post-top css-color mb-4"
-                style="background-image: linear-gradient(45deg, #8618db 0%, #d711ff 50%, #460fdd 100%);">
+                style="background-image: linear-gradient(90deg, #f09560 0%, #4e8643 50%, #a8465b 70%);">
                 <div class="s-search">
                     <div id="search" class="s-search mx-auto">
                         <div id="search-list-menu" class="hide-type-list">
                             <div class="s-type text-center">
                                 <div class="s-type-list big">
                                     <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
-                                    <label for="type-baidu" class="" data-id="group-a"><span>常用</span></label><label
-                                        for="type-baidu1" data-id="group-b"><span>搜索</span></label><label for="type-br"
-                                        data-id="group-c"><span>工具</span></label><label for="type-zhihu"
-                                        data-id="group-d"><span>社区</span></label><label for="type-taobao1"
-                                        data-id="group-e"><span>生活</span></label><label for="type-zhaopin"
-                                        data-id="group-f"><span>求职</span></label>
+                                    <label for="type-baidu" class="" data-id="group-a"><span>百度</span></label><label
+                                        for="type-taobao1" data-id="group-b"><span>淘宝</span></label><label for="type-weibo"
+                                        data-id="group-c"><span>微博</span></label><label for="type-zhihu"
+                                        data-id="group-d"><span>知乎</span></label><label for="type-douban"
+                                        data-id="group-e"><span>豆瓣</span></label><label for="type-zhaopin"
+                                        data-id="group-f"><span>股票</span></label>
                                 </div>
                             </div>
                         </div>
@@ -418,22 +418,22 @@
                                     <li><input checked="checked" hidden="" type="radio" name="type" id="type-baidu"
                                             value="https://www.baidu.com/s?wd=" data-placeholder="百度一下"><label
                                             for="type-baidu"><span class="text-muted">百度</span></label></li>
-                                    <li><input hidden="" type="radio" name="type" id="type-google"
+                                    <!-- <li><input hidden="" type="radio" name="type" id="type-google"
                                             value="https://www.google.com/search?q=" data-placeholder="谷歌两下"><label
                                             for="type-google"><span class="text-muted">谷歌</span></label></li>
                                     <li><input hidden="" type="radio" name="type" id="type-zhannei"
                                             value="https://www.iplaysoft.com/?s="
                                             data-placeholder="软件搜索"><label for="type-zhannei"><span
-                                                class="text-muted">软件</span></label></li>
+                                                class="text-muted">软件</span></label></li> -->
                                     <li><input hidden="" type="radio" name="type" id="type-taobao"
                                             value="https://s.taobao.com/search?q=" data-placeholder="淘宝"><label
                                             for="type-taobao"><span class="text-muted">淘宝</span></label></li>
-                                    <li><input hidden="" type="radio" name="type" id="type-bing"
+                                    <!-- <li><input hidden="" type="radio" name="type" id="type-bing"
                                             value="https://cn.bing.com/search?q=" data-placeholder="微软Bing搜索"><label
-                                            for="type-bing"><span class="text-muted">必应</span></label></li>
+                                            for="type-bing"><span class="text-muted">必应</span></label></li> -->
                                 </ul>
                             </div>
-                            <div class="search-group group-b ">
+                            <!-- <div class="search-group group-b ">
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" id="type-baidu1"
                                             value="https://www.baidu.com/s?wd=" data-placeholder="百度一下"><label
@@ -454,8 +454,8 @@
                                             value="https://yz.m.sm.cn/s?q=" data-placeholder="UC移动端搜索"><label
                                             for="type-sm"><span class="text-muted">神马</span></label></li>
                                 </ul>
-                            </div>
-                            <div class="search-group group-c ">
+                            </div> -->
+                            <!-- <div class="search-group group-c ">
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" id="type-br"
                                             value="https://rank.chinaz.com/all/"
@@ -478,7 +478,7 @@
                                             value="https://www.ciku5.com/s?wd=" data-placeholder="请输入关键词"><label
                                             for="type-ciku"><span class="text-muted">关键词挖掘</span></label></li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <div class="search-group group-d ">
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" id="type-zhihu"
@@ -528,7 +528,7 @@
                                 </ul>
                             </div>
                             <div class="search-group group-f ">
-                                <ul class="search-type">
+                                <!-- <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" id="type-zhaopin"
                                             value="https://sou.zhaopin.com/jobs/searchresult.ashx?kw="
                                             data-placeholder="智联招聘"><label for="type-zhaopin"><span
@@ -542,7 +542,7 @@
                                     <li><input hidden="" type="radio" name="type" id="type-liepin"
                                             value="https://www.liepin.com/zhaopin/?key=" data-placeholder="猎聘网"><label
                                             for="type-liepin"><span class="text-muted">猎聘网</span></label></li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                         <div class="card search-smart-tips" style="display: none">
@@ -557,10 +557,8 @@
                             <div class="bulletin mx-1 mx-md-2 carousel-vertical">
                                 <div class="carousel slide" data-ride="carousel" data-interval="3000">
                                     <div class="carousel-inner" role="listbox">
-                                        <div class="carousel-item active"><a class="overflowClip_1"
-                                                href="#">思民导航 - 用心精选每一个链接</a></div>
-                                        <div class="carousel-item "><a class="overflowClip_1"
-                                                href="#">思民导航 - 有范的导航网站</a></div>
+                                        <span id="jinrishici-sentence">正在加载今日诗词....</span>
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
                                     </div>
                                 </div>
                             </div>
